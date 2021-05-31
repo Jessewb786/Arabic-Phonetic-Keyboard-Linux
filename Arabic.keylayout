@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 343 on 2021-05-31 at 00:58 (CEST)-->
-<!--Last edited by Ukelele version 343 on 2021-05-31 at 02:02 (CEST)-->
-<keyboard group="126" id="-11877" name="Arabic" maxout="1">
+<!--Last edited by Ukelele version 343 on 2021-05-31 at 03:41 (CEST)-->
+<keyboard group="126" id="-6589" name="Arabic" maxout="1">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
         <layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -83,7 +83,7 @@
             <key code="46" output="ز"/>
             <key code="47" output="خ"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=""/>
+            <key code="49" output=" "/>
             <key code="50" output=""/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
