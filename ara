@@ -4,58 +4,58 @@ xkb_symbols "basic" {
     name[Group1]= "Arabic";
 
     key.type[Group1]="FOUR_LEVEL";
-    
-    key <TLDE> {[	NoSymbol,		NoSymbol,			NoSymbol,			NoSymbol	]};  // ‎N/A	N/A	N/A	N/A
-    key <AE01> {[	Arabic_1,		1,				exclam,				NoSymbol	]};  // 1	!	١	N/A
-    key <AE02> {[	Arabic_2,		2,				at,				NoSymbol	]};  // 2	@	٢	N/A
-    key <AE03> {[	Arabic_3,		3,				numbersign,			NoSymbol	]};  // 3	#	٣	N/A
-    key <AE04> {[	Arabic_4,		4,				dollar,				NoSymbol	]};  // 4	$	٤	N/A
-    key <AE05> {[	Arabic_5,		5,				percent,			NoSymbol	]};  // 5	%	٥	N/A
-    key <AE06> {[	Arabic_6,		6,				asciicircum,			NoSymbol	]};  // 6	^	٦	N/A
-    key <AE07> {[	Arabic_7,		7,				ampersand,			NoSymbol	]};  // 7	&	٧	N/A
-    key <AE08> {[	Arabic_8,		8,				asterisk,			NoSymbol	]};  // 8	*	٨	N/A
-    key <AE09> {[	Arabic_9,		9,				parenleft,			NoSymbol	]};  // 9	(	٩	N/A
-    key <AE10> {[	Arabic_0,		0,				parenright,			NoSymbol	]};  // 0	)	٠	N/A
-    key <AE11> {[	UFD3E,			minus,				underscore,			NoSymbol	]};  // ﴾	-	_	N/A
-    key <AE12> {[	UFD3F,			equal,				plus,				NoSymbol	]};  // ﴿	=	+	N/A
 
-    key <AD01> {[	Arabic_theh,		NoSymbol,			NoSymbol,			NoSymbol	]};  // ‎ث‎	N/A	N/A	N/A
-    key <AD02> {[	Arabic_tah,    		NoSymbol,			U06E2,				NoSymbol	]};  // ‎ط‎	N/A	◌ۢ	N/A
-    key <AD03> {[	Arabic_feh,		U0653,				U06D7,				NoSymbol	]};  // ‎ف	◌ٓ	◌ۗ	N/A
-    key <AD04> {[	Arabic_tehmarbuta,	U0671,				U06DB,				NoSymbol	]};  // ‎ة	ٱ	◌ۛ	N/A
-    key <AD05> {[	U0654,			NoSymbol,			NoSymbol,			NoSymbol	]};  // ‎◌ٔ‎ ‎	N/A	N/A	N/A
-    key <AD06> {[	Arabic_qaf,		NoSymbol,			NoSymbol,			NoSymbol	]};  // ‎ق	N/A	N/A	N/A
-    key <AD07> {[	Arabic_dal,		NoSymbol,			NoSymbol,			NoSymbol	]};  // د	N/A	N/A	N/A
-    key <AD08> {[	Arabic_ain,		Arabic_dammatan,		NoSymbol,			NoSymbol	]};  // ‎ع	◌ٌ 	N/A	N/A
-    key <AD09> {[	Arabic_hah,		NoSymbol,			NoSymbol,			NoSymbol	]};  // ‎ح	N/A	N/A	N/A
-    key <AD10> {[	Arabic_hamza,		NoSymbol,			NoSymbol,			NoSymbol	]};  // ء    	N/A	N/A	N/A
-    key <AD11> {[	Arabic_dad,		bracketleft,			braceleft,			NoSymbol	]};  // ‎ض‎‎	[	{	N/A
-    key <AD12> {[	Arabic_zah,		bracketright, 			braceright,			NoSymbol	]};  // ‎ظ‎	]	}	N/A
+    key <TLDE> {[   NoSymbol,           asciitilde,             grave,              NoSymbol    ]};  // N/A	    N/A	    N/A	N/A
+    key <AE01> {[   Arabic_1,           exclam,                 1,                  NoSymbol    ]};  // ١	    !	    1	N/A
+    key <AE02> {[   Arabic_2,           at,                     2,                  NoSymbol    ]};  // ٢	    @	    2	N/A
+    key <AE03> {[   Arabic_3,           numbersign,             3,                  NoSymbol    ]};  // ٣	    #	    3	N/A
+    key <AE04> {[   Arabic_4,           dollar,                 4,                  NoSymbol    ]};  // ٤	    $	    4	N/A
+    key <AE05> {[   Arabic_5,           percent,                5,                  NoSymbol    ]};  // ٥	    %	    5	N/A
+    key <AE06> {[   Arabic_6,           asciicircum,            6,                  NoSymbol    ]};  // ٦	    ^	    6	N/A
+    key <AE07> {[   Arabic_7,           ampersand,              7,                  NoSymbol    ]};  // ٧	    &	    7	N/A
+    key <AE08> {[   Arabic_8,           asterisk,               8,                  NoSymbol    ]};  // ٨	    *	    8	N/A
+    key <AE09> {[   Arabic_9,           parenleft,              9,                  NoSymbol    ]};  // ٩	    (	    9	N/A
+    key <AE10> {[   Arabic_0,           parenright,             0,                  NoSymbol    ]};  // ٠	    )	    0	N/A
+    key <AE11> {[   UFD3E,              underscore,             minus,              NoSymbol    ]};  // ﴾	    -	    _	N/A
+    key <AE12> {[   UFD3F,              plus,                   equal,              NoSymbol    ]};  // ﴿	    =	    +	N/A
 
-    key <AC01> {[	Arabic_beh,		U0640,				U06DC,				NoSymbol	]};  // ‎ب	ـ	◌ۜ	N/A
-    key <AC02> {[	Arabic_meem,		Arabic_kasratan,		U06DA,				NoSymbol	]};  // م	◌ٍ‎ 	◌ۚ	N/A
-    key <AC03> {[	Arabic_alef,		Arabic_superscript_alef,	U06D6,				NoSymbol	]};  // ا	◌ٰ	◌ۖ	N/A
-    key <AC04> {[	Arabic_waw,		Arabic_kasra,			U06D9,				NoSymbol	]};  // و	◌ِ‎ 	◌ۙ	N/A
-    key <AC05> {[	Arabic_teh,		Arabic_shadda,			NoSymbol,			NoSymbol	]};  // ت	◌ّ‎ 	N/A	N/A
-    key <AC06> {[	Arabic_ra,		Arabic_fathatan,		NoSymbol,			NoSymbol	]};  // ر	◌ً 	N/A	N/A
-    key <AC07> {[	Arabic_lam,		Arabic_damma,			NoSymbol,			NoSymbol	]};  // ل	◌ُ 	N/A	N/A
-    key <AC08> {[	Arabic_yeh,		Arabic_fatha,			NoSymbol,			NoSymbol	]};  // ‎ي‎	◌َ 	N/A	N/A
-    key <AC09> {[	Arabic_noon,		Arabic_sukun,			NoSymbol,			NoSymbol	]};  // ‎ن	◌ْ 	N/A	N/A
-    key <AC10> {[	Arabic_seen,		Arabic_semicolon,		colon,				NoSymbol	]};  // س	؛	:	N/A
-    key <AC11> {[	Arabic_sad,		apostrophe,			NoSymbol,			NoSymbol	]};  // ‎ص	'	"	N/A
-    key <BKSL> {[	UFDFA,			backslash,			bar,				NoSymbol	]};  // ﷺ	\	|	N/A
+    key <AD01> {[   Arabic_theh,        NoSymbol,               NoSymbol,           NoSymbol    ]};  // ‎ث‎	 N/A	N/A	N/A
+    key <AD02> {[   Arabic_tah,         NoSymbol,               U06E2,              NoSymbol    ]};  // ‎ط‎	 N/A	◌ۢ	N/A
+    key <AD03> {[   Arabic_feh,         U0653,                  U06D7,              NoSymbol    ]};  // ‎ف‎	 ◌ٓ	    ◌ۗ	N/A
+    key <AD04> {[   Arabic_tehmarbuta,  U0671,                  U06DB,              NoSymbol    ]};  // ‎ة‎	 ‎ٱ‎◌ۛ	N/A
+    key <AD05> {[   U0654,              NoSymbol,               NoSymbol,           NoSymbol    ]};  // ‎◌ٔ‎  N/A	N/A N/A
+    key <AD06> {[   Arabic_qaf,         NoSymbol,               NoSymbol,           NoSymbol    ]};  // ‎ق‎	 N/A	N/A N/A
+    key <AD07> {[   Arabic_dal,         NoSymbol,               NoSymbol,           NoSymbol    ]};  // ‎د‎	 N/A	N/A N/A
+    key <AD08> {[   Arabic_ain,         Arabic_dammatan,        NoSymbol,           NoSymbol    ]};  // ‎ع‎	 ◌ٌ 	    N/A N/A
+    key <AD09> {[   Arabic_hah,         NoSymbol,               NoSymbol,           NoSymbol    ]};  // ‎ح‎	 N/A	N/A N/A
+    key <AD10> {[   Arabic_hamza,       NoSymbol,               NoSymbol,           NoSymbol    ]};  // ‎ء‎  N/A	N/A N/A
+    key <AD11> {[   Arabic_dad,         braceleft,              bracketleft,        NoSymbol    ]};  // ‎ض‎	 {      [   N/A
+    key <AD12> {[   Arabic_zah,         braceright,             bracketright,       NoSymbol    ]};  // ‎ظ‎  }      ]   N/A
 
-    key <LSGT> {[	NoSymbol,		NoSymbol,			NoSymbol,			NoSymbol	]};  // N/A	N/A	N/A	N/A
-    key <AB01> {[	Arabic_thal,		NoSymbol,			NoSymbol,			NoSymbol	]};  // ‎ذ‎‎	N/A	N/A	N/A
-    key <AB02> {[	Arabic_jeem,		NoSymbol,			NoSymbol,			NoSymbol	]};  // ج	N/A	N/A	N/A
-    key <AB03> {[	Arabic_alefmaksura,	NoSymbol,			NoSymbol,			NoSymbol	]};  // ى	N/A	N/A	N/A
-    key <AB04> {[	Arabic_sheen,		U06E6,				NoSymbol,			NoSymbol	]};  // ش	ۦ	N/A	N/A
-    key <AB05> {[	U0655,			NoSymbol, 			NoSymbol,			NoSymbol	]};  // ◌ٕ	N/A	N/A	N/A
-    key <AB06> {[	Arabic_ha,		U06E5,				NoSymbol,			NoSymbol	]};  // ‎ه	ۥ	N/A	N/A
-    key <AB07> {[	Arabic_zain,		NoSymbol,			NoSymbol,			NoSymbol	]};  // ز	N/A	N/A	N/A
-    key <AB08> {[	Arabic_kaf,		Arabic_comma,			less,				NoSymbol	]};  // ‎ك‎	,	<	N/A
-    key <AB09> {[	Arabic_khah,		period,				greater,			NoSymbol	]};  // خ	.	>	N/A
-    key <AB10> {[	Arabic_ghain,		slash,				Arabic_question_mark,		NoSymbol	]};  // غ	/	/	N/A
+    key <AC01> {[   Arabic_beh,         U0640,                  U06DC,              NoSymbol    ]};  // ‎ب‎  ـ	    ◌ۜ	N/A
+    key <AC02> {[   Arabic_meem,        Arabic_kasratan,        U06DA,              NoSymbol    ]};  // ‎م‎  ◌ٍ 	    ◌ۚ	N/A
+    key <AC03> {[   Arabic_alef,        Arabic_superscript_alef,U06D6,              NoSymbol    ]};  // ‎ا‎  ◌ٰ	    ◌ۖ	N/A
+    key <AC04> {[   Arabic_waw,         Arabic_kasra,           U06D9,              NoSymbol    ]};  // ‎و‎  ◌ِ 	    ◌ۙ	N/A
+    key <AC05> {[   Arabic_teh,         Arabic_shadda,          NoSymbol,           NoSymbol    ]};  // ‎ت‎  ◌ّ 	    N/A	N/A
+    key <AC06> {[   Arabic_ra,          Arabic_fathatan,        NoSymbol,           NoSymbol    ]};  // ‎ر‎  ◌ً 	    N/A	N/A
+    key <AC07> {[   Arabic_lam,         Arabic_damma,           NoSymbol,           NoSymbol    ]};  // ‎ل‎  ◌ُ 	    N/A	N/A
+    key <AC08> {[   Arabic_yeh,         Arabic_fatha,           NoSymbol,           NoSymbol    ]};  // ‎ي‎  ◌َ 	    N/A	N/A
+    key <AC09> {[   Arabic_noon,        Arabic_sukun,           NoSymbol,           NoSymbol    ]};  // ‎ن‎  ◌ْ      N/A	N/A
+    key <AC10> {[   Arabic_seen,        colon,                  Arabic_semicolon,   NoSymbol    ]};  // ‎س‎  :      ؛	N/A
+    key <AC11> {[   Arabic_sad,         quotedbl,               apostrophe,         NoSymbol    ]};  // ‎ص‎  "      '   N/A
+    key <BKSL> {[   UFDFA,              bar,                    backslash,          NoSymbol    ]};  // ‎ﷺ‎ |      \   N/A
+
+    key <LSGT> {[   NoSymbol,           NoSymbol,               NoSymbol,           NoSymbol    ]};  // N/A      N/A    N/A	N/A
+    key <AB01> {[   Arabic_thal,        NoSymbol,               NoSymbol,           NoSymbol    ]};  // ‎ذ‎	 N/A	N/A	N/A
+    key <AB02> {[   Arabic_jeem,        NoSymbol,               NoSymbol,           NoSymbol    ]};  // ‎ج‎  N/A 	N/A	N/A
+    key <AB03> {[   Arabic_alefmaksura, NoSymbol,               NoSymbol,           NoSymbol    ]};  // ‎ى‎  N/A 	N/A	N/A
+    key <AB04> {[   Arabic_sheen,       U06E6,                  NoSymbol,           NoSymbol    ]};  // ‎ش‎  ۦ	    N/A	N/A
+    key <AB05> {[   U0655,              NoSymbol,               NoSymbol,           NoSymbol    ]};  // ◌ٕ	     N/A    N/A	N/A
+    key <AB06> {[   Arabic_ha,          U06E5,                  NoSymbol,           NoSymbol    ]};  // ‎ه‎  ۥ	    N/A	N/A
+    key <AB07> {[   Arabic_zain,        NoSymbol,               NoSymbol,           NoSymbol    ]};  // ‎ز‎  N/A 	N/A	N/A
+    key <AB08> {[   Arabic_kaf,         less,                   Arabic_comma,       NoSymbol    ]};  // ‎ك‎  <       ,  N/A
+    key <AB09> {[   Arabic_khah,        greater,                period,             NoSymbol    ]};  // ‎خ‎	 >       .  N/A
+    key <AB10> {[   Arabic_ghain,       Arabic_question_mark,   slash,              NoSymbol    ]};  // ‎غ‎  ‎؟‎ /  N/A
     
     include       "level3(ralt_switch)"
 };
